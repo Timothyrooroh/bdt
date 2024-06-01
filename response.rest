@@ -1,0 +1,20 @@
+
+### 
+//buat data
+POST http://localhost:5000/gudang
+Content-Type: application/json
+
+{
+    "nama_barang": "toytoy",
+    "jumlah": 2
+}
+
+### 
+//buat data
+DELETE http://localhost:5000/gudang/3
+# Content-Type: application/json
+
+# {
+#     "nama_barang": "toytoy",
+#     "jumlah": 2
+# }
